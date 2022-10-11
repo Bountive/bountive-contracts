@@ -1,0 +1,30 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "bet",
+                "type": "felt"
+            }
+        ],
+        "name": "set_bet",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "account",
+                "type": "felt"
+            }
+        ],
+        "name": "get_bet",
+        "outputs": [
+            {
+                "name": "bet",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
